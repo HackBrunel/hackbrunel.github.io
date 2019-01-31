@@ -2825,4 +2825,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	height: 600px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
 }
+.cssanimations.csstransforms #close {
+    display: none;
+}
 /*# sourceMappingURL=main.css.map */
