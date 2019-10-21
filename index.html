@@ -22,27 +22,12 @@
     <!--
             CSS
             ============================================= -->
-    <link rel="stylesheet" href="css/linearicons.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono">
 
-    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #mc_embed_signup {
-            background: #fff;
-            clear: left;
-            font: 14px Helvetica,Arial,sans-serif;
 
-        }
-        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
 
 </head>
 
@@ -50,24 +35,20 @@
 
 
     <!-- Start Header Area -->
-    <header id="header">
-        <div class="container">
+    <header id="header"style = "background:#777;opacity: 0.8;">
+        <div class="container" >
             <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
                     <a href="index.html"><img src="" alt="" title="" /></a>
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
-                        <li class="menu-active"><a href="#home">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#sponsors">Sponsors</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#map">Map</a></li>
                         <li><a href="#ourteam">Our Team</a></li>
-                        <!--<li class="menu-has-children"><a href="">Pages</a>
-                            <ul>
-                                <li><a href="elements.html">Elements</a></li>
-                            </ul>
-                        </li>-->
                         <li><a href="mailto:BrunelTechSociety@gmail.com">Contact</a></li>
                     </ul>   
                 </nav><!-- #nav-menu-container -->
@@ -77,50 +58,68 @@
     <!-- End Header Area -->
     <!-- Start Banner Area -->
     <section class="home-banner-area relative" id="home">
-        <div class="container">
-            <div class="row fullscreen d-flex align-items-center justify-content-center">
-                <div class="banner-content col-lg-8 col-md-12">
-                    <h1 style="font-family:'Share Tech Mono',serif; font-size:10vh;"> {Hack:Brunel}</h1>
-                    <p class="text-white">
-                        The first ever 24 Hour Hackathon at Brunel University London
-                        <br /> brought to you by TechSoc
-                        <br><b>Autumn 2019</b>
+            <div class="row fullscreen d-flex align-items-center justify-content-center" style="width:100%;">
+                <div class="banner-content col-md-8" style="width:100%;">
+                    <h1 style="font-family:'Share Tech Mono',serif; font-size:10vh;color:#fff;"> {Hack:Brunel}</h1>
+                    <p class="text-white" style="font-family:'Share Tech Mono',serif;font-size:2vh;">
+                        Brunel University London's first ever 24 Hour Hackathon
+                        <br /> brought to you by TechSoc <br/><br/>
+                        <p id="countdownTimer" style="font-family:'Share Tech Mono',serif;font-size:5vh;color:white;"></p>
 						<br><br><a href="https://www.eventbrite.co.uk/e/hackbrunel-brunel-universitys-first-24-hour-hackathon-tickets-53637729894"><button type="button" class="btn btn-danger">Tickets Here!</button></a>
                     </p>
 
                 </div>
             </div>
-        </div>
+
         <div class="rocket-img">
             <img src="img/TechSoc.png" style="width:200px;height:200px;" alt="">
         </div>
     </section>
     <!-- End Banner Area -->
 
-    <!-- Start Sponcers Area-->
+    <!-- Start Sponcors Area-->
     <section class="feature-area" id="sponsors">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title text-center">
-                        <h1>Sponsors</h1>
-                    </div>
-                    <div class="section-title text-center">
-                        <h2>Gold Tier</h2>   <br>
-                        <img src="img/mcafee_logo.png" style="height:125px;" alt="">
-                    </div>
-                    <div class="section-title text-center">
-                        <h2>Food Sponsor</h2>   <br>
-                        <img src="img/awin_logo.png" style="height:150px;" alt="">
-                    </div>
-                    <div class="section-title text-center">
-                        <a href="mailto:BrunelTechSociety@gmail.com"><button type="button" class="btn btn-outline-danger">Sponsor Us!</button></a>
-                    </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2>Sponsors</h2>
+                </div>
+                <div class="section-title text-center">
+                    <h3>Gold Tier</h3>   <br>
+                    <img src="img/mcafee_logo.png" style="height:125px;" alt="">
+                </div>
+                <div class="section-title text-center">
+                        <h3>Silver Tier</h3>   <br>
+                        <img src="img/brunel_union_logo.png" style="height:125px;padding:15px;" alt=""> <img src="img/comp_sci_logo.jpg" style="height:125px;padding:15px;" alt="">
+                </div>
+                <div class="section-title text-center">
+                    <h3>Food Sponsor</h3>   <br>
+                    <img src="img/awin_logo.png" style="height:110px;" alt="">
+                </div>
+                <div class="section-title text-center">
+                    <a href="mailto:BrunelTechSociety@gmail.com"><button type="button" class="btn btn-outline-danger">Sponsor Us!</button></a>
                 </div>
             </div>
         </div>
     </section>
     <!-- End Sponsers Area-->
+
+    <!-- Start Schedule Area -->
+
+    <section class="feature-area" id="schedule" style="background: #eee;">
+            <div class="row justify-content-center">
+                <div class="col-sm-8">
+                    <div class="section-title text-center">
+                        <img src="img/schedule.jpg" style="width:100%;" >
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+    <!-- End Schedule Area -->
 
     <!--Start Feature Area -->
     <section class="feature-area" id="faq">
@@ -128,7 +127,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center">
-                        <h1>FAQ</h1>
+                        <h2 >FAQ</h2>
                     </div>
                 </div>
             </div>
@@ -137,7 +136,7 @@
                     <div class="feature-item">
                         <i class="ti-crown"></i>
                         <h4>What is a hackathon?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+                        <div >
                             <p>
                                 Hackathons are invention marathons for developers, designers, psychologists, researchers and more. During the event, participants ('hackers') will build projects that answer our challenges to build awesome creative projects.
                             </p>
@@ -148,7 +147,7 @@
                     <div class="feature-item">
                         <i class="ti-briefcase"></i>
                         <h4>Who owns the projects?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div >
                             <p>
                                 All projects built at this event belongs completely to the teams. However, to generate the widest benefit from this event, we encourage attendees to provide Open Source licenses for the results of their work.
                             </p>
@@ -159,7 +158,7 @@
                     <div class="feature-item">
                         <i class="ti-medall-alt"></i>
                         <h4>What should I bring?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div >
                             <p>
                                 All participants will need to bring their laptop, charger(s) and any other devices they wish to work on.
                             </p>
@@ -170,7 +169,7 @@
                     <div class="feature-item">
                         <i class="ti-key"></i>
                         <h4>How much does it cost?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+                        <div >
                             <p>
                                 We want to make this event accessible for everyone, so there is no charge to enter. To make this possible, we need sponsorship. If you are interested in supporting, please get in touch.
                             </p>
@@ -181,9 +180,9 @@
                     <div class="feature-item">
                         <i class="ti-files"></i>
                         <h4>I don't think this is for me</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div >
                             <p>
-                                We really mean it when we say we welcome beginners - you can ask for help judgement-free, and if you need to step awa yfrom the action we'll have a designated quiet room available for you to use.
+                                We really mean it when we say we welcome beginners - you can ask for help judgement-free, and if you need to step away from the action we'll have a designated quiet room available for you to use.
                             </p>
                         </div>
                     </div>
@@ -192,7 +191,7 @@
                     <div class="feature-item">
                         <i class="ti-headphone-alt"></i>
                         <h4>Who is this event for?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div >
                             <p>
                                 This is an event open to everyone!!!!
                             </p>
@@ -203,7 +202,7 @@
                     <div class="feature-item">
                         <i class="ti-headphone-alt"></i>
                         <h4>Who is running this event?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div >
                             <p>
                                 This is an event hosted by Brunel University's TechSoc (A student-run tech society at Brunel)
                             </p>
@@ -214,7 +213,7 @@
                     <div class="feature-item">
                         <i class="ti-headphone-alt"></i>
                         <h4>Do I need a team?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div >
                             <p>
                                 You don’t need a team to take part; it’s perfectly acceptable to create a solo project. However, during the event itself, there will be opportunities to share ideas and connect with your fellow hackers to form a team. As organisers, we’ll do our best to encourage and facilitate teamwork across the weekend.
                             </p>
@@ -225,7 +224,7 @@
                     <div class="feature-item">
                         <i class="ti-headphone-alt"></i>
                         <h4>Do I have to stay overnight?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div >
                             <p>
                                 No, it is not a requisite to stay over. If you would like to stay though, we'll have a small number of airbeds available. We recommend you bring sleeping bags, pillows, and a change of clothes.
                             </p>
@@ -236,7 +235,7 @@
                     <div class="feature-item">
                         <i class="ti-headphone-alt"></i>
                         <h4>Can I start before?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div >
                             <p>
                                 While you can explore ideas before the event, you shouldn't start your project before the event itself and still enter the challenges. If you want to bring an existing project to the table, we encourage full disclosure and honesty.
                             </p>
@@ -247,7 +246,7 @@
                     <div class="feature-item">
                         <i class="ti-headphone-alt"></i>
                         <h4>What's the deal with food?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div >
                             <p>
                                 All food across the weekend will be provided. That is: lunch and dinner on Saturday, breakfast and lunch on Sunday. All dietary requirements will be considered and catered for - please make sure you provide this information upon registering.
                             </p>
@@ -258,7 +257,7 @@
                     <div class="feature-item">
                         <i class="ti-headphone-alt"></i>
                         <h4>Is there a Code of Conduct?</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div >
                             <p>
                                 Yes, and you must agree to it before attending. You can find it here.
                             </p>
@@ -269,7 +268,7 @@
                     <div class="feature-item">
                         <i class="ti-headphone-alt"></i>
                         <h4>I have another question</h4>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div >
                             <p>
                                 Please contact the team at <a href="mailto:BrunelTechSociety@gmail.com">bruneltechsociety@gmail.com</a>
                             </p>
@@ -299,17 +298,17 @@
 
     <!-- End Map Area -->
     <!-- Start Faculty Area -->
-    <section class="faculty-area section-gap" id="ourteam">
+    <section class="faculty-area section-gap" id="ourteam" style="background: #fff">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8">
+                <div class="col-sm-8">
                     <div class="section-title text-center">
-                        <h1>Our Team</h1>
+                        <h2>Our Team</h2>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center d-flex align-items-center">
-                <div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
+                <div class="col-sm-2">
                     <div class="thumb d-flex justify-content-center">
                         <img style="width:100%;height:100%;" class="img-fluid" src="img/faculty/f1.jpg" alt="">
                     </div>
@@ -319,7 +318,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
+                <div class="col-sm-2">
                     <div class="thumb d-flex justify-content-center">
                         <img style="width:100%;height:100%;" class="img-fluid" src="img/faculty/f4.jpg" alt="">
                     </div>
@@ -329,7 +328,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
+                <div class="col-sm-2">
                     <div class="thumb d-flex justify-content-center">
                         <img style="width:100%;height:100%;" src="img/faculty/avatar.png" alt="">
                     </div>
@@ -339,7 +338,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
+                <div class="col-sm-2">
                     <div class="thumb d-flex justify-content-center">
                         <img style="width:100%;height:100%;" src="img/faculty/avatar.png" alt="">
                     </div>
@@ -349,7 +348,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
+                <div class="col-sm-2">
                     <div class="thumb d-flex justify-content-center">
                         <img style="width:100%;height:100%;" src="img/faculty/avatar.png" alt="">
                     </div>
@@ -359,7 +358,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
+                <div class="col-sm-2">
                     <div class="thumb d-flex justify-content-center">
                         <img style="width:100%;height:100%;" src="img/faculty/avatar.png" alt="">
                     </div>
@@ -376,56 +375,16 @@
     </section>
     <!-- End Faculty Area -->
     
-            <!-- Begin Mailchimp Signup Form -->
-
-            <div id="mc_embed_signup">
-                <form action="https://hackbrunel.us19.list-manage.com/subscribe/post?u=89204705d996c284d4235e1e5&amp;id=9a5652d993" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <h2>Subscribe to our mailing list</h2>
-                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL">
-                                Email Address  <span class="asterisk">*</span>
-                            </label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_89204705d996c284d4235e1e5_9a5652d993" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                    </div>
-                    <a id="close">[close]</a>
-                </form>
-            </div>
-        
-            <!--End mc_embed_signup-->
     <!-- Start Footer Area -->
-    <footer class="footer-area section-gap">
+    <footer class="footer-area" style="background:#111111;">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-md-6 single-footer-widget">
-                    <h4>Social</h4>
-                    <ul>
-                        <li><a href="https://www.facebook.com/bruneltech/">Facebook</a></li>
-                        <li><a href="https://twitter.com/bruneltech">Twitter</a></li>
-                    </ul>
-                </div>
+                <br/>
+                <h3 style="color:white;">Social</h3>
+                <a href="https://www.facebook.com/bruneltech/"><img src="img/facebook_icon.png" style="height:100px;margin:15px;"></a>
+                <a href="https://twitter.com/bruneltech"></i><img src="img/twitter_icon.png" style="height:100px;margin:15px;"></a>
+                <a href="https://www.instagram.com/bruneluni/"></i><img src="img/instagram_icon.png" style="height:100px;margin:15px;"></a>
 
-            </div>
-            <div class="footer-bottom row align-items-center">
-                <p class="footer-text m-0 col-lg-8 col-md-12">
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;
-                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                </p>
-                <div class="col-lg-4 col-md-12 footer-social">
-                    <a href="https://www.facebook.com/bruneltech/"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/bruneltech"><i class="fa fa-twitter"></i></a>
-                </div>
-            </div>
+            <br/>
         </div>
     </footer>
 
@@ -435,36 +394,41 @@
         <a title="Go to Top" href="#"></a>
     </div>
     <!-- ####################### End Scroll to Top Area ####################### -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/hoverIntent.js"></script>
-    <script src="js/superfish.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/owl-carousel-thumb.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
-    <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-    <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+
     <script>
-        close = document.getElementById("close");
-        close.addEventListener('click', function () {
-            note = document.getElementById("note");
-            note.style.display = 'none';
-        }, false);
-    </script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Oct 26, 2019 09:00:00").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get today's date and time
+              var now = new Date().getTime();
+            
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+            
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+              // Display the result in the element with id="demo"
+              document.getElementById("countdownTimer").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";
+            
+              // If the count down is finished, write some text
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdownTimer").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+            </script>
 </body>
 
 </html>
