@@ -66,12 +66,14 @@
                         Brunel University London's first ever 24 Hour Hackathon
                         <br /> brought to you by TechSoc <br/><br/>
         
-                        <p id="countdownTimer" style="font-family:'Share Tech Mono',serif;font-size:8vh;color:white;"></p>
-
+                        
                     
-					    <br><br><button type="button" class="btn btn-danger">The event has started!</button></a>
+                        <button type="button" class="btn btn-danger">The event has started!</button></a><br><br><br>
+                        <p id="countdownTimer" style="font-family:'Share Tech Mono',serif;font-size:7vh;color:white;"></p>
                     </p>
                 </div>
+
+                
             </div>
 
         <div class="rocket-img">
@@ -466,7 +468,7 @@
               var seconds = Math.floor((distance % (1000 * 60)) / 1000);
             
               // Display the result in the element with id="demo"
-              document.getElementById("countdownTimer").innerHTML = days + "d " + hours + "h "
+              document.getElementById("countdownTimer").innerHTML = hours + "h "
               + minutes + "m " + seconds + "s ";
             
               // If the count down is finished, write some text
