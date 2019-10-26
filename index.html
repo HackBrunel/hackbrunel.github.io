@@ -64,10 +64,10 @@
                     <p class="text-white" style="font-family:'Share Tech Mono',serif;font-size:2vh;">
                         Brunel University London's first ever 24 Hour Hackathon
                         <br /> brought to you by TechSoc <br/><br/>
-                        <p id="countdownTimer" style="font-family:'Share Tech Mono',serif;font-size:5vh;color:white;"></p>
+        
+                        <p id="countdownTimer" style="font-family:'Share Tech Mono',serif;font-size:8vh;color:white;"></p>
 						<br><br><a href="https://www.eventbrite.co.uk/e/hackbrunel-brunel-universitys-first-24-hour-hackathon-tickets-53637729894"><button type="button" class="btn btn-danger">Tickets Here!</button></a>
                     </p>
-
                 </div>
             </div>
 
@@ -401,7 +401,7 @@
 
     <script>
             // Set the date we're counting down to
-            var countDownDate = new Date("Oct 26, 2019 12:00:00").getTime(); //Hack starts at 12:00 26th Oct
+            var countDownDate = new Date("Oct 27, 2019 12:00:00").getTime(); //Hack starts at 12:00 26th Oct
             
             // Update the count down every 1 second
             var x = setInterval(function() {
@@ -425,7 +425,7 @@
               // If the count down is finished, write some text
               if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("countdownTimer").innerHTML = "EXPIRED";
+                document.getElementById("countdownTimer").innerHTML = "Stop Hacking!!";
               }
             }, 1000);
             </script>
